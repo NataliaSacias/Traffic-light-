@@ -13,7 +13,7 @@ const Luces = props => {
 	);
 };
 
-Luces.propType = {
+Luces.propTypes = {
 	color: PropTypes.string,
 	lit: PropTypes.string,
 	setLit: PropTypes.string
